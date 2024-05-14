@@ -505,10 +505,10 @@ int main() {
                 }
 
                 // apply reward/punishment to the target q value to get the ideal q value
-                targetQValue = rewards[randomCurrentTimestep] + DISCOUNT_FACTOR * targetQValue;
+                targetQValue = rewards[randomNextTimestep] + DISCOUNT_FACTOR * targetQValue;
             } else {
                 feedForward(qNetwork, gameStates[randomCurrentTimestep], Q_NETWORK_HIDDEN_ACTIVATION, Q_NETWORK_OUTPUT_ACTIVATION);
-                targetQValue = rewards[randomCurrentTimestep];
+                targetQValue = rewards[randomNextTimestep];
             }
 
             // setup the backpropagated values array to be used in backpropagation
