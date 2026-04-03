@@ -8,6 +8,7 @@ In each file, there are hyperparameters and game parameters. These can be edited
 
 ## Game:
 The game can be run through Python or through C. The Python version only supports a hard-coded opponent with a single bot player. The C version supports the same as the Python version but adds the ability for dueling agents (both players are agents)
+Note: For the C game, you may have to install SDL2 and initialize it
 
 ## Main Program:
 There are two main programs. They are essentially the same file except one has a different port (to allow it to work with the dueling agent setting)
