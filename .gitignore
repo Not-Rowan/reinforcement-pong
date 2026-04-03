@@ -1,0 +1,5 @@
+**/.DS_Store
+./reinforcementNeuralNetwork/game/SDL2.framework
+./reinforcementNeuralNetwork/game/cython_constraint.txt
+./reinforcementLearning/reinforcementNeuralNetwork/network/workingModels
+**/main.dSYM
