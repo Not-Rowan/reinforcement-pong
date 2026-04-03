@@ -16,5 +16,5 @@ There are two main programs. They are essentially the same file except one has a
 ## Running The Whole Thing
 To run the whole thing, the different options above can be used. One terminal tab or window will be running the main agent program (main.c or main2.c if dueling agents), then the other window/tab will be running the game program (either game.c or game.py).
 
-
+---
 Hopefully this helps and contact me if you need any help with running the program. I'd be happy to help any time :)
